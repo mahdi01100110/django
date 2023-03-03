@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "elearning"
+version = "0.0.0"
+description = ""
+authors = ["Sajad Alimoradi <sajad.alimoradi@outlook.com>"]
+license = "private"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-decouple = "^3.7"
+psycopg2 = "^2.9.5"
+toml = "^0.10.2"
+django = "^4.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
